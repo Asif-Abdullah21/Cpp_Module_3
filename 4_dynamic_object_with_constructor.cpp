@@ -20,7 +20,7 @@ public:
 int main()
 {
     char nm[101] = "Asif Abdullah";
-    Student* asif = new Student(nm,18,8,'B');
+    Student* asif = new Student(nm,18,8,'B'); //dynamic object creation
 
     
     cout << "Asif's Information:" << endl;
@@ -28,6 +28,8 @@ int main()
     cout << asif->roll << endl;
     cout << asif->section << endl;
     cout << asif->cls << endl;
+
+    // now we can delete it
 
     return 0;
 }
