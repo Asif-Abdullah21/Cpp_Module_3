@@ -29,7 +29,7 @@ int main()
     cout << asif->section << endl;
     cout << asif->cls << endl;
 
-    // now we can delete it
+    // now we can delete it, but if we delete it we cannot access it anymore
 
     return 0;
 }
